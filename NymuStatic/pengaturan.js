@@ -4,3 +4,6 @@ import {KepalaHTML, TubuhHTML} from './elemen.js';
 
 // Impor file CSS sekalian masukin tag <meta>
 KepalaHTML.innerHTML = '<meta name="viewport" content="width=device-width, initial-scale=1">';
+
+// Tes Eruda berfungsi atau tidak 
+eruda.init();

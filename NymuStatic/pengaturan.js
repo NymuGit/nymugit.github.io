@@ -4,7 +4,7 @@ import {
   UrlData
 } from './elemen.js';
 import {
-  DeteksiUrl()
+  DeteksiUrl
 } from './fungsi.js';
 // endof !import
 

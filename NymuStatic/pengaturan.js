@@ -1,5 +1,8 @@
 // Brought to you by Anonym2Name
-import {KepalaHTML, TubuhHTML} from './elemen.js';
+import {
+  KepalaHTML, TubuhHTML, 
+  UrlData
+} from './elemen.js';
 // endof !import
 
 // Impor file CSS sekalian masukin tag <meta>

@@ -3,9 +3,7 @@ import {
   KepalaHTML, TubuhHTML, 
   UrlData, Debugger
 } from './elemen.js';
-import {
-  DeteksiUrl
-} from './fungsi.js';
+import * as Fx from './fungsi.js';
 // endof !import
 
 // Impor file CSS sekalian masukin tag <meta>

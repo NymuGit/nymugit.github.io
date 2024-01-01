@@ -3,6 +3,9 @@ import {
   KepalaHTML, TubuhHTML, 
   UrlData
 } from './elemen.js';
+import {
+  DeteksiUrl
+} from './fungsi.js';
 // endof !import
 
 // Impor file CSS sekalian masukin tag <meta>

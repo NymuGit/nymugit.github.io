@@ -3,9 +3,7 @@ import {
   KepalaHTML, TubuhHTML, 
   UrlData, Debugger
 } from './elemen.js';
-import {
-  DeteksiUrl()
-} from './fungsi.js';
+import * as Fx from './fungsi.js';
 // endof !import
 
 // Impor file CSS sekalian masukin tag <meta>
@@ -13,4 +11,4 @@ KepalaHTML.innerHTML = '<meta name="viewport" content="width=device-width, initi
 
 // Jalanin fungsi yang sudah diekspor
 
-DeteksiUrl(UrlData);
+Fx.DeteksiUrl(UrlData);

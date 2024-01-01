@@ -4,3 +4,6 @@ var DeteksiUrl = () => {
 };
 
 // Saatnya ekspor!
+export {
+  DeteksiUrl
+}

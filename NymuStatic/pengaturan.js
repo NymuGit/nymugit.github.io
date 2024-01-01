@@ -5,4 +5,4 @@ import * as Fx from './fungsi.js';
 
 // Jalanin fungsi yang sudah diekspor
 Elmn.UrlData, Elmn.Bahasa, Elmn.NymuApp;
-Fx.DeteksiUrl(UrlData, Bahasa);
+Fx.DeteksiUrl(Elmn.UrlData, Elmn.Bahasa);

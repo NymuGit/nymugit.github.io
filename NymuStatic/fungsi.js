@@ -1,4 +1,4 @@
 // Brought to you by Anonym2Name
-export var DeteksiUrl = () => {
-  if (UrlData == '/beranda.htm?id') console.log('Bahasa Indo!');
+export let DeteksiUrl = (name) => {
+  if (name == '/beranda.htm?id') console.log('Bahasa Indo!');
 };

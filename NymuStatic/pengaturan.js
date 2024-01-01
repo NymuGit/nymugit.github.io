@@ -12,3 +12,4 @@ KepalaHTML.innerHTML = '<meta name="viewport" content="width=device-width, initi
 // Jalanin fungsi yang sudah diekspor
 UrlData;
 Fx.DeteksiUrl();
+Debugger;

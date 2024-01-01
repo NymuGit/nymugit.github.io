@@ -1,4 +1,4 @@
 // Brought to you by Anonym2Name
-export var DeteksiUrl = () => {
-  if (UrlData == '/beranda.htm?id') alert('Bahasa Indo!');
+export var DeteksiUrl = (name) => {
+  if (name == '/beranda.htm?id') alert('Bahasa Indo!');
 };

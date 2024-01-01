@@ -1,7 +1,7 @@
 // Brought to you by Anonym2Name
 import {
   KepalaHTML, TubuhHTML, 
-  UrlData, Debugger
+  UrlData
 } from './elemen.js';
 import * as Fx from './fungsi.js';
 // endof !import

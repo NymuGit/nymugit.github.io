@@ -7,5 +7,5 @@ import * as Fx from './fungsi.js';
 // endof !import
 
 // Jalanin fungsi yang sudah diekspor
-UrlData;
-Fx.DeteksiUrl(UrlData);
+UrlData, Bahasa;
+Fx.DeteksiUrl(UrlData, Bahasa);

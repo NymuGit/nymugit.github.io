@@ -1,7 +1,7 @@
 // Brought to you by Anonym2Name
 import {
   KepalaHTML, TubuhHTML, 
-  UrlData
+  UrlData, Debugger
 } from './elemen.js';
 import {
   DeteksiUrl

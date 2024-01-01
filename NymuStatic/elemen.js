@@ -8,5 +8,5 @@ let NymuApp = document.querySelector('#NymuStatic');
 // Jangan lupa ekspor!
 export {
   KepalaHTML, TubuhHTML, 
-  UrlData, Bahasa
+  UrlData, Bahasa, NymuApp
 };

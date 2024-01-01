@@ -10,5 +10,5 @@ import * as Fx from './fungsi.js';
 KepalaHTML.innerHTML = '<meta name="viewport" content="width=device-width, initial-scale=1">';
 
 // Jalanin fungsi yang sudah diekspor
-
+UrlData;
 Fx.DeteksiUrl(UrlData);

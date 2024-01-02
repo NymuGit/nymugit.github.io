@@ -5,6 +5,9 @@ let UrlData = location.pathname;
 let Bahasa = navigator.language;
 let NymuApp = document.querySelector('#NymuStatic');
 
+// Elemen NymuApp dsj.
+
+
 // Jangan lupa ekspor!
 export {
   KepalaHTML, TubuhHTML, 

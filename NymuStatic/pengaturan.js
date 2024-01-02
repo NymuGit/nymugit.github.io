@@ -4,8 +4,8 @@ import {
   UrlData, Bahasa, NymuApp
 } from './elemen.js';
 import {
-  
-}
+  Kalendar, Jam, Menit, Detik
+} from './waktu.js';
 import * as Fx from './fungsi.js';
 // endof !import
 

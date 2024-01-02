@@ -8,5 +8,4 @@ import * as Fx from './fungsi.js';
 
 // Jalanin fungsi yang sudah diekspor
 UrlData, Bahasa, NymuApp;
-Fx.DeteksiUrl(UrlData, Bahasa);
-Fx.TampilanHTML(UrlData, NymuApp);
+Fx.DeteksiUrl(UrlData, Bahasa, NymuApp);

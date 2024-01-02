@@ -4,8 +4,5 @@ export var DeteksiUrl = (name, language, uniqueID) => {
     confirm('English!');
     location.assign('/beranda.htm?en');
   }
-  if (language == 'id' && name == '/beranda.htm' || language == 'id') {
-    confirm('Indonesia!');
-    location.assign('/beranda.htm?id');
-  }
+  
 };

@@ -5,7 +5,7 @@ let Menit = Kalendar.getMinutes();
 let Detik = Kalendar.getSeconds();
 
 // Ekspor semua!
-export{
+export {
   Kalendar, 
   Jam, Menit, Detik
 };

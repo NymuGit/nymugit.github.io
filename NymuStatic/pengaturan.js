@@ -1,5 +1,8 @@
 // Brought to you by Anonym2Name
-import * as Elmn from './elemen.js';
+import {
+  KepalaHTML, TubuhHTML,
+  UrlData, Bahasa, NymuApp
+} from './elemen.js';
 import * as Fx from './fungsi.js';
 // endof !import
 

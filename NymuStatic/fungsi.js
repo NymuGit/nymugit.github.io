@@ -2,7 +2,6 @@
 export var DeteksiUrl = (name, language, uniqueID) => {
   if (language == 'en' && name == '/beranda.htm' || language == 'en') {
     confirm('English!');
-    location.assign('/beranda.htm?en');
   }
   
 };

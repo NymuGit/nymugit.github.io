@@ -12,7 +12,7 @@ let Navbar = document.createElement('nav');
 let Artikel = document.createElement('article');
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
-Header.setAttribute('class', 'container');
+Header.setAttribute('class', 'col');
 
 // Jangan lupa ekspor!
 export {

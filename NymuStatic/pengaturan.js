@@ -1,8 +1,5 @@
 // Brought to you by Anonym2Name
 import {
-  Nymu_Icon_alt
-} from './teks.js';
-import {
   HTML, KepalaHTML, TubuhHTML,
   UrlData, Bahasa, NymuApp,
   Header, Navbar, Artikel, JendelaSamping, Footer
@@ -10,6 +7,9 @@ import {
 import {
   Kalendar, Jam, Menit, Detik
 } from './waktu.js';
+import {
+  Nymu_Icon_alt
+} from './teks.js';
 import * as Fx from './fungsi.js';
 // endof !import
 

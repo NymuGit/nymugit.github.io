@@ -1,5 +1,8 @@
 // Brought to you by Anonym2Name
 import {
+  Nymu_Icon_alt
+} from './teks.js';
+import {
   HTML, KepalaHTML, TubuhHTML,
   UrlData, Bahasa, NymuApp,
   Header, Navbar, Artikel, JendelaSamping, Footer

@@ -10,6 +10,9 @@ let NymuApp = document.querySelector('#NymuStatic');
 let Header = document.createElement('header');
 let Navbar = document.createElement('nav');
 let Artikel = document.createElement('article');
+import {
+  Nymu_Icon_alt
+} from './teks.js';
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
 Header.setAttribute('class', 'col-12 bg-primary');

@@ -12,11 +12,11 @@ let Navbar = document.createElement('nav');
 let Artikel = document.createElement('article');
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
-Header.setAttribute('class', 'col-12');
-Navbar.setAttribute('class', 'col-12');
-Artikel.setAttribute('class', 'col-7');
-JendelaSamping.setAttribute('class', 'col-5');
-Footer.setAttribute('class', 'col-5');
+Header.setAttribute('class', 'col-12 bg-primary');
+Navbar.setAttribute('class', 'col-12 bg-secondary');
+Artikel.setAttribute('class', 'col-7 bg-yellow');
+JendelaSamping.setAttribute('class', 'col-5 bg-green');
+Footer.setAttribute('class', 'col-5 bg-gray');
 
 // Jangan lupa ekspor!
 export {

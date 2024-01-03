@@ -1,7 +1,7 @@
 // Brought to you by Anonym2Name
-export let DeteksiUrl = (name, language, uniqueID) => {
+export let DeteksiUrl = (name, language, uniqueID, a1, a2, a3, a4, a5) => {
   if (name == '/beranda.htm' && language == 'en-US') {
-    uniqueID.append(Header, Navbar, Artikel, JendelaSamping, Footer);
+    uniqueID.append(a1, a2, a3, a4, a5);
   }
 };
 export let TemaHTML = (hours, minutes, tags) => {

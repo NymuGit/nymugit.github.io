@@ -7,7 +7,11 @@ let Bahasa = navigator.language;
 let NymuApp = document.querySelector('#NymuStatic');
 
 // Elemen NymuApp dsj.
-
+let Header = document.createElement('header');
+let Navbar = document.createElement('nav');
+let Artikel = document.createElement('article');
+let JendelaSamping = document.createElement('aside');
+let Footer = document.createElement('footer');
 
 // Jangan lupa ekspor!
 export {

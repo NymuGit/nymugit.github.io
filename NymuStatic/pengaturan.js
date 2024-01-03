@@ -1,6 +1,6 @@
 // Brought to you by Anonym2Name
 import {
-  KepalaHTML, TubuhHTML,
+  HTML, KepalaHTML, TubuhHTML,
   UrlData, Bahasa, NymuApp
 } from './elemen.js';
 import {

@@ -4,6 +4,6 @@ export let DeteksiUrl = (name, language, uniqueID) => {
     uniqueID;
   }
 };
-export let TemaHTML = (hours, minutes, uniqueID) => {
+export let TemaHTML = (hours, minutes, tags) => {
   if (hours >= 7 && minutes >= 30) uniqueID.setAttribute('data-bs-theme', 'dark');
 };

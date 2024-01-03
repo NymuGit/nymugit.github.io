@@ -1,5 +1,9 @@
 // Brought to you by Anonym2Name
-export let DeteksiUrl = (name, language, uniqueID, a1, a2, a3, a4, a5, txt1) => {
+export let DeteksiUrl = (
+  name, language, uniqueID, 
+  a1, a2, a3, a4, a5, 
+  txt1
+) => {
   if (name == '/beranda.htm' && language == 'en-US') {
     uniqueID.append(a1, a2, a3, a4, a5);
     a1.textContent = txt1;

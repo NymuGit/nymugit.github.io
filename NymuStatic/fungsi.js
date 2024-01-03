@@ -5,6 +5,6 @@ export let DeteksiUrl = (name, language, uniqueID) => {
   }
 };
 export let TemaHTML = (hours, minutes, tags) => {
-  if (hours >= 7 && minutes >= 30) tags.setAttribute('data-bs-theme', 'light');
-  if (hours >= 18 && minutes >= 15) tags.setAttribute('data-bs-theme', 'dark');
+  if (hours >= 7 && minutes >= 30 || hours >= 7) tags.setAttribute('data-bs-theme', 'light');
+  if (hours >= 18 && minutes >= 15 || hours >= 18) tags.setAttribute('data-bs-theme', 'dark');
 };

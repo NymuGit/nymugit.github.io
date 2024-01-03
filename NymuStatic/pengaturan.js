@@ -16,5 +16,8 @@ UrlData, Bahasa, NymuApp;
 Kalendar, Jam, Menit, Detik;
 Header, Navbar, Artikel, JendelaSamping, Footer;
 
-Fx.DeteksiUrl(UrlData, Bahasa, NymuApp);
+Fx.DeteksiUrl(
+  UrlData, Bahasa, NymuApp,
+  Header, Navbar, Artikel, JendelaSamping, Footer
+);
 setTimeout(Fx.TemaHTML(Jam, Menit, HTML), 1000);

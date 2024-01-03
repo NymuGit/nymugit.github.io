@@ -16,5 +16,6 @@ let Footer = document.createElement('footer');
 // Jangan lupa ekspor!
 export {
   HTML, KepalaHTML, TubuhHTML, 
-  UrlData, Bahasa, NymuApp
+  UrlData, Bahasa, NymuApp,
+  Header, Navbar, Artikel, JendelaSamping, Footer
 };

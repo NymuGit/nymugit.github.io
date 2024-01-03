@@ -14,3 +14,4 @@ KepalaHTML, TubuhHTML;
 UrlData, Bahasa, NymuApp;
 Kalendar, Jam, Menit, Detik;
 Fx.DeteksiUrl(UrlData, Bahasa, NymuApp);
+Fx.TemaHTML(Jam, Menit, HTML);

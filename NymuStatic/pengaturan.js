@@ -22,6 +22,7 @@ Header, Navbar, Artikel, JendelaSamping, Footer;
 
 Fx.DeteksiUrl(
   UrlData, Bahasa, NymuApp,
-  Header, Navbar, Artikel, JendelaSamping, Footer
+  Header, Navbar, Artikel, JendelaSamping, Footer,
+  Nymu_Icon_alt
 );
 setTimeout(Fx.TemaHTML(Jam, Menit, HTML), 1000);

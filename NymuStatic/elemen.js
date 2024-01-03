@@ -17,11 +17,6 @@ Navbar.setAttribute('class', 'col-12 bg-secondary');
 Artikel.setAttribute('class', 'col-7 bg-yellow');
 JendelaSamping.setAttribute('class', 'col-5 bg-green');
 Footer.setAttribute('class', 'col-5 bg-gray');
-Header.textContent = Nymu_Icon_alt;
-Navbar.textContent = Nymu_Icon_alt;
-Artikel.textContent = Nymu_Icon_alt;
-JendelaSamping.textContent = Nymu_Icon_alt;
-Footer.textContent = Nymu_Icon_alt;
 
 // Jangan lupa ekspor!
 export {

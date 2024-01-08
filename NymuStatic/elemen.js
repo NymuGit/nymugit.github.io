@@ -15,8 +15,8 @@ let Footer = document.createElement('footer');
 
 Header.setAttribute('class', 'col-12 mb-2');
 Navbar.setAttribute('class', 'col-12 mb-2');
-Artikel.setAttribute('class', 'col-7 mx-auto');
-JendelaSamping.setAttribute('class', 'col-4 mx-auto');
+Artikel.setAttribute('class', 'col-7 mx-auto offset-1');
+JendelaSamping.setAttribute('class', 'col-4 mx-auto offset-1');
 Footer.setAttribute('class', 'col-5 mt-2 mx-auto');
 
 Header.style.background = 'var(--bs-primary)';

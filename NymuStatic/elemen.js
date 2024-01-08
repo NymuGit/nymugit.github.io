@@ -15,9 +15,9 @@ let Footer = document.createElement('footer');
 
 Header.setAttribute('class', 'col-12-lg mb-2 rounded-3');
 Navbar.setAttribute('class', 'col-12-lg mb-2 rounded-3');
-Artikel.setAttribute('class', 'col-7-lg mx-auto rounded-3');
-JendelaSamping.setAttribute('class', 'col-4-lg mx-auto rounded-3');
-Footer.setAttribute('class', 'col-5-md mt-2 mx-auto rounded-3');
+Artikel.setAttribute('class', 'col-7-lg mx-auto mb-2 rounded-3');
+JendelaSamping.setAttribute('class', 'col-4-lg mx-auto mb-2 rounded-3');
+Footer.setAttribute('class', 'col-5-md mx-auto rounded-3');
 
 Header.style.background = 'var(--bs-primary)';
 Navbar.style.background = 'var(--bs-secondary)';

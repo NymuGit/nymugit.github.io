@@ -1,5 +1,5 @@
 // Brought to you by Anonym2Name
-Nymu_Icon_alt = `Nymu icon`;
+let Nymu_Icon_alt = `Nymu icon`;
 
 // Jangan lupa ekspor!
 export {

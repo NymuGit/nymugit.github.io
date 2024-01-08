@@ -21,7 +21,7 @@ Footer.setAttribute('class', 'col-5');
 
 Header.style.background = 'var(--bs-primary)';
 Navbar.style.background = 'var(--bs-secondary)';
-Artikel.style.background = 'var(--bs-tertiary)';
+Artikel.style.background = 'var(--bs-orange)';
 JendelaSamping.style.background = 'var(--bs-yellow)';
 Footer.style.background = 'var(--bs-green)';
 

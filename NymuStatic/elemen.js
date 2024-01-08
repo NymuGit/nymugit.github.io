@@ -12,11 +12,19 @@ let Navbar = document.createElement('nav');
 let Artikel = document.createElement('article');
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
+
 Header.setAttribute('class', 'col-12');
 Navbar.setAttribute('class', 'col-12');
 Artikel.setAttribute('class', 'col-7');
 JendelaSamping.setAttribute('class', 'col-5');
 Footer.setAttribute('class', 'col-5');
+
+Header.style.background = 'var(--bs-primary)';
+Navbar.style.background = 'var(--bs-secondary)';
+Artikel.style.background = 'var(--bs-tertiary)';
+JendelaSamping.style.background = 'var(--bs-yellow)';
+J
+Footer.style.background = 'var(--bs-green)';
 
 // Jangan lupa ekspor!
 export {

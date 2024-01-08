@@ -13,11 +13,11 @@ let Artikel = document.createElement('article');
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
 
-Header.setAttribute('class', 'col-12 mb-2 rounded-2');
-Navbar.setAttribute('class', 'col-12 mb-2 rounded-2');
-Artikel.setAttribute('class', 'col-7 mx-auto rounded-2');
-JendelaSamping.setAttribute('class', 'col-4 mx-auto rounded-2');
-Footer.setAttribute('class', 'col-5 mt-2 mx-auto rounded-2');
+Header.setAttribute('class', 'col-12 mb-2 rounded-3');
+Navbar.setAttribute('class', 'col-12 mb-2 rounded-3');
+Artikel.setAttribute('class', 'col-7 mx-auto rounded-3');
+JendelaSamping.setAttribute('class', 'col-4 mx-auto rounded-3');
+Footer.setAttribute('class', 'col-5 mt-2 mx-auto rounded-3');
 
 Header.style.background = 'var(--bs-primary)';
 Navbar.style.background = 'var(--bs-secondary)';

@@ -13,10 +13,10 @@ let Artikel = document.createElement('article');
 let JendelaSamping = document.createElement('aside');
 let Footer = document.createElement('footer');
 
-Header.setAttribute('class', 'col-12');
-Navbar.setAttribute('class', 'col-12');
-Artikel.setAttribute('class', 'col-7');
-JendelaSamping.setAttribute('class', 'col-5');
+Header.setAttribute('class', 'col-12 mb-2');
+Navbar.setAttribute('class', 'col-12 mb-2');
+Artikel.setAttribute('class', 'col-6 me-1');
+JendelaSamping.setAttribute('class', 'col-5 ms-1');
 Footer.setAttribute('class', 'col-5 mx-auto');
 
 Header.style.background = 'var(--bs-primary)';

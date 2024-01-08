@@ -17,7 +17,7 @@ Header.setAttribute('class', 'col-12');
 Navbar.setAttribute('class', 'col-12');
 Artikel.setAttribute('class', 'col-7');
 JendelaSamping.setAttribute('class', 'col-5');
-Footer.setAttribute('class', 'col-5');
+Footer.setAttribute('class', 'col-5 mx-auto');
 
 Header.style.background = 'var(--bs-primary)';
 Navbar.style.background = 'var(--bs-secondary)';

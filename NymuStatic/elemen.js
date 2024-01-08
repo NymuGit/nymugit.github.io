@@ -23,7 +23,6 @@ Header.style.background = 'var(--bs-primary)';
 Navbar.style.background = 'var(--bs-secondary)';
 Artikel.style.background = 'var(--bs-tertiary)';
 JendelaSamping.style.background = 'var(--bs-yellow)';
-J
 Footer.style.background = 'var(--bs-green)';
 
 // Jangan lupa ekspor!

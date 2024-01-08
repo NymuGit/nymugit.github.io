@@ -14,11 +14,11 @@ import * as Fx from './fungsi.js';
 // endof !import
 
 // Jalanin fungsi yang sudah diekspor
-Nymu_Icon_alt;
 HTML, KepalaHTML, TubuhHTML;
 UrlData, Bahasa, NymuApp;
 Kalendar, Jam, Menit, Detik;
 Header, Navbar, Artikel, JendelaSamping, Footer;
+Nymu_Icon_alt;
 
 Fx.DeteksiUrl(
   UrlData, Bahasa, NymuApp,

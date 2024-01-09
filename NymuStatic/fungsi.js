@@ -14,7 +14,7 @@ export let DeteksiUrl = (
   }
 };
 export let TemaHTML = (calendar, hours, minutes, seconds, tags) => {
-  console.log(hours + ':' + minutes + ':' + seconds);
+  console.log('Diperbarui: ' + hours + ':' + minutes + ':' + seconds);
   if (hours >= 7) tags.setAttribute('data-bs-theme', 'light');
   if (hours >= 18 || hours <= 7) tags.setAttribute('data-bs-theme', 'dark');
 };

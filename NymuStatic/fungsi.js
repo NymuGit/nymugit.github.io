@@ -13,7 +13,7 @@ export let DeteksiUrl = (
     a5.innerHTML = txt2;
   }
 };
-export let TemaHTML = (hours, minutes, tags) => {
+export let TemaHTML = (calendar, hours, minutes, seconds, tags) => {
   console.log(hours + ':' + minutes);
   if (hours >= 7) tags.setAttribute('data-bs-theme', 'light');
   if (hours >= 18 || hours <= 7) tags.setAttribute('data-bs-theme', 'dark');

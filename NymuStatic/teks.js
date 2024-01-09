@@ -7,5 +7,6 @@ Hosted by Github.
 
 // Jangan lupa ekspor!
 export {
-  Nymu_Icon_alt
+  Nymu_Icon_alt,
+  Footer_content
 };

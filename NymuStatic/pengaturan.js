@@ -8,7 +8,8 @@ import {
   Kalendar, Jam, Menit, Detik
 } from './waktu.js';
 import {
-  Nymu_Icon_alt
+  Nymu_Icon_alt,
+  Footer_content
 } from './teks.js';
 import * as Fx from './fungsi.js';
 // endof !import

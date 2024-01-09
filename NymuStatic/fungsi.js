@@ -6,10 +6,10 @@ export let DeteksiUrl = (
 ) => {
   if (name == '/beranda.htm' && language == 'en-US') {
     uniqueID.append(a1, a2, a3, a4, a5);
-    a1.textContent = txt1;
-    a2.textContent = txt1;
-    a3.textContent = txt1;
-    a4.textContent = txt1;
+    a1.innerHTML = txt1;
+    a2.innerHTML = txt1;
+    a3.innerHTML = txt1;
+    a4.innerHTML = txt1;
     a5.innerHTML = txt2;
   }
 };

@@ -13,12 +13,13 @@ import {
 import * as Fx from './fungsi.js';
 // endof !import
 
-// Jalanin fungsi yang sudah diekspor
 HTML, KepalaHTML, TubuhHTML;
 UrlData, Bahasa, NymuApp;
 Kalendar, Jam, Menit, Detik;
 Header, Navbar, Artikel, JendelaSamping, Footer;
+Nymu_Icon_alt, Footer_content;
 
+// Jalanin fungsi yang sudah diekspor
 Fx.DeteksiUrl(
   UrlData, Bahasa, NymuApp,
   Header, Navbar, Artikel, JendelaSamping, Footer,

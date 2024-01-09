@@ -18,7 +18,6 @@ HTML, KepalaHTML, TubuhHTML;
 UrlData, Bahasa, NymuApp;
 Kalendar, Jam, Menit, Detik;
 Header, Navbar, Artikel, JendelaSamping, Footer;
-Nymu_Icon_alt;
 
 Fx.DeteksiUrl(
   UrlData, Bahasa, NymuApp,

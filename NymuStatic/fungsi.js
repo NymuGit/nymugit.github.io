@@ -10,7 +10,7 @@ export let DeteksiUrl = (
     a2.textContent = txt1;
     a3.textContent = txt1;
     a4.textContent = txt1;
-    a5.write = txt2;
+    a5.innerHTML = txt2;
   }
 };
 export let TemaHTML = (hours, minutes, tags) => {

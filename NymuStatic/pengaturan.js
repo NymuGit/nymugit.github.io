@@ -20,4 +20,4 @@ Fx.DeteksiUrl(
   Header, Navbar, Artikel, JendelaSamping, Footer,
   Nymu_Icon_alt, Footer_content
 );
-setTimeout(Fx.TemaHTML(Jam, Menit, HTML), 1000);
+setTimeout(Fx.TemaHTML(Kalendar, Jam, Menit, Detik, HTML), 1000);

@@ -15,7 +15,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'Void'),
+      '@': path.resolve(__dirname, 'N7'),
     },
   },
 })

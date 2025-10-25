@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["Void/*"]
+      "@/*": ["N7/*"]
     }
   },
-  "include": ["Void"]
+  "include": ["N7"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

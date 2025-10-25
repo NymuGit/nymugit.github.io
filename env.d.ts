@@ -1,4 +1,5 @@
 /// <reference types="vite/client" />
+/// <reference types="tailwindcss" />
 
 // .vue
 declare module '*.vue' {

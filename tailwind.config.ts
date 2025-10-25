@@ -1,19 +1,16 @@
-import type {Config} from 'tailwindcss'
+/** @type {import('tailwindcss').Config} */
 
 export default {
   content: [
     './index.html',
-    './Void/**/*.{vue,js,ts,jsx,tsx}',
+    './N7/**/*.{vue,js,ts,jsx,tsx}',
   ],
+  darkmode: 'selector',
   theme: {
-    fontSize: {
-      base: ['16px', '1.5'],
-      sm: ['14px', '1.5'],
-      lg: ['20px', '1.5'],
-      xl: ['24px', '1.5'],
-    }
+    extend: {},
   },
   plugins: [
     require('tailwindcss-transition'),
+    require('tailwind-scrollbar-hide'),
   ],
-} satisfies Config
+}

@@ -1,0 +1,38 @@
+/*
+VueNymu
+v1.30
+Nymu Ahmedeeya
+*/
+
+@import 'tailwindcss';
+
+/* Transisi alami.... */
+.modal-enter-active, .modal-leave-active {
+  @apply transition-all duration-300 ease-in-out;
+}
+.modal-enter-from, .modal-leave-to {
+  @apply opacity-0;
+}
+.modal-enter-to, .modal-leave-from {
+  @apply opacity-100;
+}
+
+.fade-enter-active, .fade-leave-active {
+  @apply transition-all duration-300 ease-in-out;
+}
+.fade-enter-from, .fade-leave-to {
+  @apply opacity-0;
+}
+.fade-enter-to, .fade-leave-from {
+  @apply opacity-100;
+}
+
+.slidinup-enter-active, .slidinup-leave-active {
+  @apply transition-all duration-300 ease-in-out;
+}
+.slidinup-enter-from, .slidinup-leave-to {
+  @apply opacity-0 translate-y-full;
+}
+.slidinup-enter-to, .slidinup-leave-from {
+  @apply opacity-50 translate-none;
+}

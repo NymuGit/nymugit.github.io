@@ -1,0 +1,26 @@
+/*
+VueNymu
+v1.30
+Nymu Ahmedeeya
+*/
+
+@import 'tailwindcss';
+
+@theme {
+/*  --breakpoint-xs: 240px;
+  --breakpoint-sm: 300px;
+  --breakpoint-md: 360px;
+  --breakpoint-lg: 720px;
+  --breakpoint-xl: 960px;
+  --breakpoint-2xl: 1200px;
+  --breakpoint-3xl: 1920px;
+*/
+  --breakpoint-*: initial;
+}
+
+/* Atur blockquote biar ada warna2nya gitu :) */
+@layer base {
+  blockquote {@apply relative pl-8;}
+  blockquote p {@apply leading-relaxed;}
+  blockquote::before {content: "->"; @apply absolute top-0 left-0 font-mono font-extrabold opacity-70;}
+}

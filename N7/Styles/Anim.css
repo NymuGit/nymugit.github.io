@@ -1,0 +1,29 @@
+/*
+VueNymu
+v1.30
+Nymu Ahmedeeya
+*/
+
+/* Atur referensi */
+@import './Tailwind.css';
+@reference './Tailwind.css';
+
+/* Atur animasi + keyframe di sini aja hehe :D */
+@keyframes loop-oscilate {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(7px);}
+}
+@keyframes fade-in-3 {
+  0% {opacity: 0; transform: translateY(100%);}
+  100% {opacity: 100%; transform: translateY(0);}
+}
+
+/* Animasi naik-turun (kek efek AM) */
+.anim-loop-all {
+  animation: loop-oscilate 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate infinite;
+}
+
+/* Animasi intro fade-in */
+.anim-intro-fadein {
+  animation: fade-in-3 3s cubic-bezier(0.19, 1, 0.22, 1);
+}

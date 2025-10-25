@@ -1,0 +1,53 @@
+/*
+VueNymu
+v1.30
+Nymu Ahmedeeya
+*/
+
+/* Atur referensi */
+@import './Tailwind.css';
+@reference './Tailwind.css';
+
+/* Impor esensial (kek animasi, dll.) */
+@import './Anim.css';
+@import './Transition.css';
+
+/* Atur body dikit, biar bagus :D */
+body {
+  @apply bg-violet-50 dark:bg-violet-950
+}
+#n7 {
+  @apply relative w-screen h-screen bg-transparent overflow-hidden;
+  font-family: 'Times New Roman';
+}
+
+/* Setel Font dulu :) */
+@font-face {
+  font-family: Norwester;
+  src: url('/Fonts/NorwesterRegular-j5r9.ttf');
+}
+@font-face {
+  font-family: "Arslan Wessam A";
+  src: url('/Fonts/Arslan_Wessam_A.ttf');
+}
+@font-face {
+  font-family: DanielBold;
+  src: url('/Fonts/DanielBold.ttf');
+}
+
+/* Saatnya apply ke kelas */
+.font-nymu {font-family: Norwester;}
+.font-arab {font-family: "Arslan Wessam A";}
+.font-nymu-2 {font-family: DanielBold;}
+
+h1 {font-family: Norwester; @apply text-7xl}
+h2 {font-family: Norwester; @apply text-6xl}
+h3 {font-family: Norwester; @apply text-5xl}
+h4 {font-family: Norwester; @apply text-4xl}
+h5 {font-family: Norwester; @apply text-3xl}
+h6 {font-family: Norwester; @apply text-2xl}
+
+/* Atur garis horizontal, biar keren dikit :D */
+hr {
+  @apply my-4 border-2 border-white rounded-2xl;
+}

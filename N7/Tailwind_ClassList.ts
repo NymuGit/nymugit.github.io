@@ -33,13 +33,16 @@ const Class = {
   },
   Layout: {
     MainWrapper: 'w-full h-full p-0 ' +
+      'bg-scroll ' +
       'overflow-hidden scrollbar-hide ',
-    Wrapper1: 'w-full h-full p-3 ' +
+    Wrapper1: 'w-full h-full mx-auto p-3 ' +
       'grid grid-cols-5 gap-3 content-end place-content-around ' +
       'overflow-hidden scrollbar-hide ' +
       'lg:grid-cols-7 lg:gap-5 lg:p-5 ' +
       'xl:grid-cols-9 xl:gap-7 xl:p-7 ' +
-      '2xl:grid-cols-11 2xl:gap-9 2xl:p-9 ',
+      '2xl:grid-cols-11 2xl:gap-9 2xl:p-9 ' +
+      '3xl:w-4/5 ' +
+      '4xl:w-3/4 ',
     Wrapper2: 'w-full h-full p-3 ' +
       'grid grid-cols-5 gap-3 content-end place-content-around ' +
       'overflow-hidden scrollbar-hide ' +
@@ -85,7 +88,7 @@ const Class = {
       'md:rounded-4xl ' +
       'lg:grid lg:col-span-2 lg:p-5 ' +
       'xl:col-span-3 xl:p-7 ' +
-      '2xl:col-span-4 xl:p-9 ' +
+      '2xl:col-span-4 2xl:p-9 ' +
       `${FontAIO}`,
     Dark_Aside: 'dark:bg-black/30 ' +
       'dark:text-white ',
@@ -136,6 +139,10 @@ const Class = {
       'md:hidden ',
     Dark_Button2: 'dark:text-white ',
   },
+  About: 'grid gap-3 ' +
+    'lg:gap-5 ' +
+    'xl:grid-flow-col xl:gap-7 ' +
+    '2xl:gap-9 ',
   Modal: {
     Div1: 'fixed h-full ' +
       'inset-0 flex items-center justify-center z-50 ' +
@@ -176,23 +183,33 @@ const Class = {
     Ul: 'ml-6 list-disc ',
   },
   BioCard: {
-    Div1: 'w-full min-h-40 p-3 ' +
-      'grid gap-3 grid-cols-3 grid-flow-col ' +
+    Div1: 'w-full h-auto p-3 ' +
+      'grid grid-cols-12 gap-3 ' +
       'backdrop-blur-md ' +
       'rounded-2xl ' +
+      'sm:grid-cols-12 ' +
       'lg:p-5 lg:gap-5' +
       'xl:p-7 xl:gap-7 ' +
-      '2xl:p-9 2xl:gap-9 ',
-    Img: 'w-full min-h-1/2 ' +
-      'bg-contain bg-center ' +
-      'col-start-3 content-center ' +
+      '2xl:max-w-[1/2] ' +
+      '3xl:max-w-[1/3] ' +
+      `${FontAIO}`,
+    Img: 'w-full h-86 ' +
+      'object-cover object-top ' +
+      'col-span-12 row-span-1 ' +
       'bg-white ' +
-      'rounded-2xl ',
+      'rounded-2xl ' +
+      'sm:h-56 sm:col-span-4 ',
     Div2: 'w-full ' +
-      'grid grid-col-6 col-span-2 ',
-    ColSpan1: 'col-span-1 ',
-    ColSpan11: 'col-span-11 ',
-    ColSpan12: 'col-span-12 ',
+      'flex flex-col col-span-12 gap-3 ' +
+      'sm:col-span-8 ',
+    Div3: 'w-full ' +
+      'grid grid-flow-row grid-cols-12 col-span-12 ',
+    H3: 'bg-transparent ',
+    I: 'bg-transparent ',
+    ColSpan1: 'col-span-3 ',
+    ColSpan2: 'col-span-6 ',
+    ColSpan3: 'col-span-9 ',
+    ColSpan4: 'col-span-12 ',
   },
 }
 export default Class

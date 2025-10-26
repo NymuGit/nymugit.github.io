@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+.cache/
+temp/
+
+# Vite / Vue specific
+.vite/
+*.log
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*

@@ -10,7 +10,7 @@
     "pre": "vite preview",
     "buat-aja": "vite build",
     "cek-tipe": "vue-tsc --build",
-    "up-17": "gh-pages -d dist -m 'Update v1.30 (udah jadi)'",
+    "up-17": "gh-pages -d dist -m 'Update v1.30 (perbaikan kecil, cek log update di websitenya)'",
     "up-13": "gh-pages -d . -b master -m 'Update v1.30 (sumber kode)'",
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "lint:eslint": "eslint . --fix",

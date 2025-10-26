@@ -15,6 +15,6 @@ const Cls7 = Class
 <template>
   <div id="not-found">
     <h1 :class="Cls7.NotFound.H1">{{ SwitchLang('What are ya search?', 'Nyari apa sih?') }}</h1>
-    <p>{{ SwitchLang('Go back! The dev is currently busy ... so don\'t try to make his jobs a lot!', 'Balik sana! Yang buat ini lagi sibuk ... jadi jangan nambah2 kerjaan dia!') }}</p>
+    <p>{{ SwitchLang('Go back! The dev is currently busy ... so don\'t try to append his jobs a lot!', 'Balik sana! Yang buat ini lagi sibuk ... jadi jangan nambah2 kerjaan dia!') }}</p>
   </div>
 </template>

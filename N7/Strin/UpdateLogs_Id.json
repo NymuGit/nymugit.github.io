@@ -1,11 +1,12 @@
 [
 	{
-		"date": "Update: __1 November 2025__",
+		"date": "Update: __25 Oktober 2025__",
 		"log1": "- Perubahan besar2an pada situs ini ke versi 1.30.",
 		"log2": "- Penambahan blur hampir di seluruh elemen.",
 		"log3": "- Penambahan \"Fira Lutfia\" ke dalam situs ini.",
 		"log4": "- Penggantian fitur, dari `JamDigital_CaraBaru.vue` menjadi `Quotes.vue`.",
 		"log5": "- Penambahan `BioCard.vue` pada __Tentang Kami__.",
+		"log6": "- Perbaikan pada `BioCard.vue` + sedikit penyesuaian pada halaman __Tentang Kami__.",
 		"log12": "> Note: Update ini butuh waktu setidaknya hampir 1 tahun lamanya.",
 		"log13": "<hr />"
 	},

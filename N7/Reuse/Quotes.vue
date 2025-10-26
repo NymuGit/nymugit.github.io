@@ -10,7 +10,7 @@ import MarkdownIt from 'markdown-it'
 import Class from '@/Tailwind_ClassList' 
 import Src from '@/Sources'
 import { RandomPick_Quote, RenderMd, SwitchLang } from '@/Function'
-import QuotesData_En from '@/Strin/Quotes_En.json'
+import QuotesData_En from '@/Strin/Quotes_En_Refined.json'
 import QuotesData_Id from '@/Strin/Quotes_Id.json'
 
 // Buat alias dulu

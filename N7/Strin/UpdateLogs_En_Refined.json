@@ -1,0 +1,49 @@
+[
+    {
+        "date": "Update: __25 October 2025__",
+        "log1": "- Major update to version 1.30.",
+        "log2": "- Added blur effects to almost all elements.",
+        "log3": "- Added \"Fira Lutfia\" to this site.",
+        "log4": "- Feature change: from `JamDigital_CaraBaru.vue` to `Quotes.vue`.",
+        "log5": "- Added `BioCard.vue` to the __About Us__ page.",
+        "log6": "- Fixed `BioCard.vue` design + small adjustment on __About Us__ page.",
+        "log12": "> Note: This update took almost a year to complete.",
+        "log13": "<hr />"
+    },
+    {
+        "date": "Update: __2 December 2024__",
+        "log1": "- Major overhaul of both _Light_ and _Dark_ themes, again.",
+        "log2": "- Reset and added a new function in `Fungsi.vue`.",
+        "log3": "- Now features a blurred background on the sidebar menu.",
+        "log4": "> Note: This update took around a month to complete.",
+        "log5": "<hr />"
+    },
+    {
+        "date": "Update: __31 October 2024__",
+        "log1": "- Major overhaul of both _Light_ and _Dark_ themes.",
+        "log2": "- Code optimization in `Fungsi.vue` by merging functions from `JamDigital_CaraBaru.vue` and separating each variable into individual functions.",
+        "log3": "> Note: This update took around a month to complete.",
+        "log4": "<hr />"
+    },
+    {
+        "date": "Update: __30 August 2024__",
+        "log1": "- Adjusted text structure on the __Home__, __About Us__, and __Is this a real page?__ sections.",
+        "log2": "- I wonder if that day was 30 Septemb-- [REDACTED]",
+        "log3": "<hr />"
+    },
+    {
+        "date": "Update: __19 August 2024__",
+        "log1": "- The Khabbiri lyrics are now complete. Check them out via the __Is this a real page?__ menu or by adding `halaman/khabbiri` to your browser URL.",
+        "log3": "<hr />"
+    },
+    {
+        "date": "Update: __15 July 2024__",
+        "log1": "- Fixed the clock issue on the Home page (caused by a misconfiguration in Vue’s function).",
+        "log3": "<hr />"
+    },
+    {
+        "date": "Update: __11 July 2024__",
+        "log1": "- Updated the logo.",
+        "log2": "- Updated Vue page links."
+    }
+]

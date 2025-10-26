@@ -9,7 +9,7 @@ import MarkdownIt from 'markdown-it'
 import Class from '@/Tailwind_ClassList' 
 import Src from '@/Sources'
 import { RenderMd, SwitchLang } from '@/Function'
-import UpdateLogs_En from '@/Strin/UpdateLogs_En.json'
+import UpdateLogs_En from '@/Strin/UpdateLogs_En_Refined.json'
 import UpdateLogs_Id from '@/Strin/UpdateLogs_Id.json'
 
 // Buat alias dulu

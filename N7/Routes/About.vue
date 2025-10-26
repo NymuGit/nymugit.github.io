@@ -6,10 +6,12 @@ Nymu Ahmedeeya
 
 <script setup lang="ts">
 import BioCard from '@/Reuse/BioCard.vue'
+import Class from '@/Tailwind_ClassList'
 import Src from '@/Sources'
 import { SwitchLang } from '@/Function'
 
 // Buat alias dulu
+const Cls7 = Class
 const Img7 = Src
 
 const Quote_B1 = SwitchLang('Shines like the star ....', 'Bersinar seperti bintang ....')
@@ -17,7 +19,7 @@ const Quote_B2 = SwitchLang('All in, but hard to consist ....', 'Serba bisa, sus
 </script>
 
 <template>
-  <div id="about">
+  <div id="about" :class="Cls7.About">
     <BioCard
       Color="bg-pink-500/30"
       :Image="Img7.Lutfia_1"
@@ -30,7 +32,6 @@ const Quote_B2 = SwitchLang('All in, but hard to consist ....', 'Serba bisa, sus
       Instagram="Syafi"
       Tiktok="Fira lutfia"
     />
-    <hr />
     <BioCard
       Color="bg-purple-500/30"
       :Image="Img7.NymuAhmedeeya_1"

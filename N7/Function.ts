@@ -1,7 +1,7 @@
 /*
-VueNymu
-v1.30
-Nymu Ahmedeeya
+VueNm
+v1.33
+NamaMu Ahmedeeya
 */
 
 import { onMounted, type Ref, ref } from "vue"
@@ -28,12 +28,12 @@ export const DateBackground = () => {
           break
         case 10:
           if (Day >= 1 && Day <= 22)
-          Bg = IsDark ? Src.Nymu_Bg_Dark : Src.Nymu_Bg_Light
+          Bg = IsDark ? Src.Nm_Bg_Dark : Src.Nm_Bg_Light
           break
       }
 
       // Kalo masih belum cocok
-      return Bg || IsDark ? Src.Nymu_Bg_Dark : Src.Nymu_Bg_Light
+      return Bg || IsDark ? Src.Nm_Bg_Dark : Src.Nm_Bg_Light
       // return Bg
     }
 
@@ -75,11 +75,11 @@ export const DateBackground = () => {
   })
 }
 
-export const RenderMd = (s: string, Md: any): string => {
+export const RenderMd = (s: undefined | object[] | string, Md: any): string => {
   if (!s) return ''
   return Md.render(s)
 }
-export const RenderMd_Sanitized = (s: string, Md: any): string => {
+export const RenderMd_Sanitized = (s: undefined | object[] | string, Md: any): string => {
   if (!s) return ''
   const Raw = Md.render(s)
   return DOMPurify.sanitize(Raw)
@@ -91,7 +91,7 @@ export const RandomPick_Quote = (qts: object[], curqt: Ref<object | null>) => {
 }
 
 // Fungsi alih dua bahasa lho ya >_<
-export const SwitchLang = (Text1: object[] | string, Text2: object[] | string) => {
+export const SwitchLang = (Text1: undefined | object[] | string, Text2: undefined | object[] | string) => {
   let Language = ref(navigator.language)
   return (Language.value === 'id') ? Text2 : Text1
 }

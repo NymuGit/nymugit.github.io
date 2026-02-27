@@ -1,7 +1,7 @@
 <!--
-VueNymu
-v1.30
-Nymu Ahmedeeya
+VueNm
+v1.33
+NamaMu Ahmedeeya
 -->
 
 <script setup lang="ts">
@@ -15,7 +15,7 @@ defineProps<{
   Color: string,
   Image: string,
   Name: string,
-  Quote: object[] | string,
+  Quote: object[] | string | undefined,
   Facebook?: string,
   Instagram?: string,
   Youtube?: string,

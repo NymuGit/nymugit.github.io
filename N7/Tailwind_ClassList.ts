@@ -1,7 +1,7 @@
 /*
-VueNymu
-v1.30
-Nymu Ahmedeeya
+VueNm
+v1.33
+NamaMu Ahmedeeya
 */
 
 // Impor sumber dulu
@@ -36,7 +36,7 @@ const Class = {
       'bg-scroll ' +
       'overflow-hidden scrollbar-hide ',
     Wrapper1: 'w-full h-full mx-auto p-3 ' +
-      'grid grid-cols-5 gap-3 content-end place-content-around ' +
+      'grid grid-cols-5 gap-3 content-center place-content-around ' +
       'overflow-hidden scrollbar-hide ' +
       'lg:grid-cols-7 lg:gap-5 lg:p-5 ' +
       'xl:grid-cols-9 xl:gap-7 xl:p-7 ' +
@@ -69,8 +69,8 @@ const Class = {
       '2xl:w-auto 2xl:grid-cols-9 2xl:col-span-10 2xl:gap-9 ' +
       `${FontAIO}`,
     Article: 'w-full max-h-[67vh] p-3 ' +
-      'grid col-span-5 gap-4 content-start ' + 
-      'backdrop-blur-md bg-white/30 border-2 border-white ' +
+      'grid col-span-5 gap-3 content-start ' + 
+      'backdrop-blur-none bg-white/30 border-2 border-white ' +
       'overflow-scroll rounded-xl scrollbar-hide ' +
       'transition-all duration-300 ' +
       'md:rounded-4xl ' +
@@ -81,7 +81,7 @@ const Class = {
     Dark_Article: 'dark:bg-black/30 ' +
       'dark:text-white ',
     Aside: 'w-full max-h-[67vh] hidden p-3 ' +
-      'gap-4 content-start ' + 
+      'gap-3 content-start ' + 
       'backdrop-blur-md bg-white/30 border-2 border-white ' +
       'overflow-scroll rounded-xl scrollbar-hide ' +
       'transition-all duration-300 ' +
@@ -146,11 +146,11 @@ const Class = {
   Modal: {
     Div1: 'fixed h-full ' +
       'inset-0 flex items-center justify-center z-50 ' +
-      'bg-white/30 backdrop-blur-md ' +
+      'bg-white/60 backdrop-blur-none ' +
       `${FontAIO}`,
-    Dark_Div1: 'dark:bg-black/30 ',
+    Dark_Div1: 'dark:bg-black/60 ',
     Div2: 'w-full max-w-sm m-3 p-3 ' +
-      'bg-transparent border-4 border-white shadow-2xl ' +
+      'backdrop-blur-md border-4 border-white shadow-2xl ' +
       'rounded-xl ' +
       'overflow-y-scroll scrollbar-hide ',
     Button1: 'px-4 py-2 ' +
@@ -178,6 +178,45 @@ const Class = {
       'opacity-80 ' +
       'text-center ',
     Hidden_Lg: 'lg:hidden ',
+  },
+  Salawat: {
+    Div1: 'w-full mx-0 ' +
+      'grid grid-cols-1 gap-3 ' +
+      'lg:gap-5 ' +
+      'xl:gap-7 ' +
+      '2xl:gap-9 ',
+    Div2: 'w-full ' +
+      'grid grid-flow-col grid-cols-1 gap-3 ' +
+      'md:grid-cols-2 ' +
+      'lg:gap-5 ' +
+      'xl:gap-7 ' +
+      '2xl:gap-9 ',
+    H3: 'justify-center ' +
+      'text-center ',
+    Sekumpul: 'px-4 py-2 ' +
+      'col-span-1 ' +
+      'backdrop-blur-md bg-gradient-to-r from-blue-700/30 to-white/30 ' +
+      'rounded-xl ' +
+      'hover:bg-green-500/60 hover:outline-2 hover:outline-white hover:scale-95 ' +
+      'active:scale-105 ' +
+      'transition-all ' +
+      'text-white text-right font-nymu ',
+    Klasik: 'px-4 py-2 ' +
+      'col-span-1 ' +
+      'backdrop-blur-md bg-gradient-to-r from-red-500/30 to-gray-900/30 ' +
+      'rounded-xl ' +
+      'hover:bg-black/60 hover:outline-2 hover:outline-red-500 hover:scale-95 ' +
+      'active:scale-105 ' +
+      'transition-all ' +
+      'text-white text-center font-nymu ',
+    Baru: 'px-4 py-2 ' +
+      'col-span-1 ' +
+      'backdrop-blur-md bg-gradient-to-r from-violet-700/30 to-pink-500/30 ' +
+      'rounded-xl ' +
+      'hover:bg-yellow-300/60 hover:outline-2 hover:outline-white hover:scale-95 ' +
+      'active:scale-105 ' +
+      'transition-all ' +
+      'text-white font-nymu ',
   },
   Updates: {
     Ul: 'ml-6 list-disc ',
@@ -210,6 +249,17 @@ const Class = {
     ColSpan2: 'col-span-6 ',
     ColSpan3: 'col-span-9 ',
     ColSpan4: 'col-span-12 ',
+  },
+  Salawat_Lyrics: {
+    Div1: 'w-full mx-0 ' +
+      'grid grid-cols-1 gap-3 ' +
+      'lg:gap-5 ' +
+      'xl:gap-7 ' +
+      '2xl:gap-9 ',
+    P1: 'p-5 ' +
+      'font-arab leading-relaxed text-3xl text-right ',
+    P2: 'font-nymu text-2xl text-center ',
+    P3: 'font-nymu-2 text-md text-left ',
   },
 }
 export default Class

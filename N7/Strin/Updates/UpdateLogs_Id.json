@@ -1,5 +1,14 @@
 [
 	{
+		"date": "Update: __26 Februari 2026__",
+		"log1": "- Perombakan kecil pada situs ini ke versi 1.33.",
+		"log2": "- Pergantian wallpaper situs serta logo yang baru.",
+		"log3": "- `BioCard.vue` telah dirubah dan ditambahkan lebih banyak orang yang bekontribusi, baik secara langsung maupun tidak langsung.",
+		"log4": "- Untuk sementara, halaman __Serba Sholawat__ dan __Ultah?__ ditunda pengembangannya sampai waktu yang tidak ditentukan.",
+		"log12": "> Note: Update ini butuh waktu setidaknya 3 bulan.",
+		"log13": "<hr />"
+	},
+	{
 		"date": "Update: __25 Oktober 2025__",
 		"log1": "- Perubahan besar2an pada situs ini ke versi 1.30.",
 		"log2": "- Penambahan blur hampir di seluruh elemen.",

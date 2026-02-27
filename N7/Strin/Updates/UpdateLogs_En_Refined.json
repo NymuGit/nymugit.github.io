@@ -1,5 +1,14 @@
 [
     {
+        "date": "Update: __26 February 2026__",
+        "log1": "- Minor update to version 1.33.",
+        "log2": "- Wallpapers and logos was changed.",
+        "log3": "- `BioCard.vue` was changed and added more people who contribute, either direct or indirect.",
+        "log4": "- Temporary, __Any Salawat__ and __Bestday?__ development is delayed until unspecified time.",
+        "log12": "> Note: This update took 3 months.",
+        "log13": "<hr />"
+    },
+    {
         "date": "Update: __25 October 2025__",
         "log1": "- Major update to version 1.30.",
         "log2": "- Added blur effects to almost all elements.",

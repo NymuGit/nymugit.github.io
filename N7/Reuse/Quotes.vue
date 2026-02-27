@@ -1,7 +1,7 @@
 <!--
-VueNymu
-v1.30
-Nymu Ahmedeeya
+VueNm
+v1.33
+NamaMu Ahmedeeya
 -->
 
 <script setup lang="ts">
@@ -10,8 +10,8 @@ import MarkdownIt from 'markdown-it'
 import Class from '@/Tailwind_ClassList' 
 import Src from '@/Sources'
 import { RandomPick_Quote, RenderMd, SwitchLang } from '@/Function'
-import QuotesData_En from '@/Strin/Quotes_En_Refined.json'
-import QuotesData_Id from '@/Strin/Quotes_Id.json'
+import QuotesData_En from '@/Strin/Quotes/Quotes_En_Refined.json'
+import QuotesData_Id from '@/Strin/Quotes/Quotes_Id.json'
 
 // Buat alias dulu
 const Cls7 = Class

@@ -1,7 +1,7 @@
 <!--
-VueNymu
-v1.30
-Nymu Ahmedeeya
+VueNm
+v1.33
+NamaMu Ahmedeeya
 -->
 
 <script setup lang="ts">
@@ -9,13 +9,11 @@ import MarkdownIt from 'markdown-it'
 import Class from '@/Tailwind_ClassList' 
 import Src from '@/Sources'
 import { RenderMd, SwitchLang } from '@/Function'
-import UpdateLogs_En from '@/Strin/UpdateLogs_En_Refined.json'
-import UpdateLogs_Id from '@/Strin/UpdateLogs_Id.json'
+import UpdateLogs_En from '@/Strin/Updates/UpdateLogs_En_Refined.json'
+import UpdateLogs_Id from '@/Strin/Updates/UpdateLogs_Id.json'
 
 // Buat alias dulu
 const Cls7 = Class
-const Img7 = Src
-const AnimLoopAll = 'anim-loop-all '
 
 // Jelasin dulu
 interface UpdateLogs {

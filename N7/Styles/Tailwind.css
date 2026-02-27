@@ -1,0 +1,19 @@
+/*
+VueNm
+v1.33
+NamaMu Ahmedeeya
+*/
+
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+}
+
+/* Atur blockquote biar ada warna2nya gitu :) */
+@layer base {
+  blockquote {@apply relative pl-8;}
+  blockquote p {@apply leading-relaxed;}
+  blockquote::before {content: "->"; @apply absolute top-0 left-0 font-mono font-extrabold opacity-70;}
+}

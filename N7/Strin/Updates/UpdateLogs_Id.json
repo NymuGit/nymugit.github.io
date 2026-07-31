@@ -1,5 +1,15 @@
 [
 	{
+		"date": "Update: __1 Agustus 2026__",
+		"log1": "Perubahan besar2an ke versi 1.45.",
+		"log2": "Pergantian wallpaper dan juga penyesuaian blur tiap elemen.",
+		"log3": "\"Fira Lutfia\" telah dihapus karna alasan spesifik, dan sebagai gantinya, \"Afiva Octavia\" dan \"Lyra\" hadir untuk mengisi kekosongan.",
+		"log4": "- `BioCard.vue` telah dirubah beberapa detail-- seperti _foto profil_.",
+		"log5": "- Untuk sementara, halaman __Serba Sholawat__ dan __Ultah?__ masih ditunda pengembangannya sampai waktu yang tidak ditentukan.",
+		"log12": "> Note: Update ini butuh waktu setidaknya 6 bulan.",
+		"log13": "<hr />"
+	},
+	{
 		"date": "Update: __26 Februari 2026__",
 		"log1": "- Perombakan kecil pada situs ini ke versi 1.33.",
 		"log2": "- Pergantian wallpaper situs serta logo yang baru.",

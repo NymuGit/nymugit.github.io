@@ -1,12 +1,11 @@
 /*
 VueNm
-v1.33
+v1.40
 NamaMu Ahmedeeya
 */
 
 import { onMounted, type Ref, ref } from "vue"
 import type { RouteLocationAsPathGeneric, RouteLocationAsRelativeGeneric } from "vue-router"
-import MarkdownIt from "markdown-it"
 import DOMPurify from "dompurify" 
 import Src from "./Sources"
 
@@ -56,7 +55,7 @@ export const DateBackground = () => {
       Overlay.style.opacity = '0'
       setTimeout(() => {
         Overlay.style.backgroundImage = `url('${Url}')`
-        Overlay.style.opacity = '0.5'
+        Overlay.style.opacity = '0.7'
       }, 600)
     }
 

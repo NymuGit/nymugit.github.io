@@ -1,16 +1,15 @@
 <!--
 VueNm
-v1.33
+v1.40
 NamaMu Ahmedeeya
 -->
 
 <script setup lang="ts">
-import { ref, reactive } from 'vue'
+import { ref } from 'vue'
 import { RouterView } from 'vue-router'
 import { Bars3BottomRightIcon } from '@heroicons/vue/16/solid'
 import Nav from '@/Layouts/Nav.vue'
 import Modal from '@/Reuse/Modal.vue'
-import Quotes from '@/Reuse/Quotes.vue' 
 import Class from '@/Tailwind_ClassList' 
 import Src from '@/Sources'
 
@@ -22,7 +21,7 @@ const AnimLoopAll = 'anim-loop-all '
 // Setup modal nav mobile
 let IsOpen = ref(false)
 
-// Deteksi kehytaman pake ini
+// (Optional, jangan dihapus) Deteksi kehytaman pake ini
 const IsDark = window.matchMedia('(prefers-color-scheme: dark)').matches
 </script>
 
@@ -31,7 +30,7 @@ const IsDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     <div :class="AnimLoopAll + Cls7.Layout.Wrapper1">
       <!-- Bagian paling atas -->
       <header :class="Cls7.Layout.Header + Cls7.Layout.Dark_Header">
-        <img id="mainlogo" :class="Cls7.Layout.Logo" :src="IsDark ? Img7.Nm_Logo_Alt : Img7.Nm_Logo" />
+        <img id="mainlogo" :class="Cls7.Layout.Logo" :src="Img7.Nm_Logo" />
         <!-- Tombol buat buka menu Navbar hape -->
         <button @click="IsOpen = true" :class="Cls7.NavM.Button2 + Cls7.NavM.Dark_Button2">
           <Bars3BottomRightIcon />

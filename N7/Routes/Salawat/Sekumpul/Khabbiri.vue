@@ -1,6 +1,6 @@
 <!--
 VueNm
-v1.33
+v1.40
 NamaMu Ahmedeeya
 -->
 
@@ -29,5 +29,8 @@ const Md = new MarkdownIt({
     <Salawat_Lyrics :Lyric_Ar="Lyrics._Ar[0]" :Lyric_EnLtn="RenderMd(Lyrics._EnLtn[0], Md)" :Lyric_IdLtn="RenderMd(Lyrics._IdLtn[0], Md)" :Lyric_En="RenderMd(Lyrics._En[0], Md)" :Lyric_Id="RenderMd(Lyrics._Id[0], Md)" />
     <hr />
     <Salawat_Lyrics :Lyric_Ar="Lyrics._Ar[1]" :Lyric_EnLtn="RenderMd(Lyrics._EnLtn[1], Md)" :Lyric_IdLtn="RenderMd(Lyrics._IdLtn[1], Md)" :Lyric_En="RenderMd(Lyrics._En[1], Md)" :Lyric_Id="RenderMd(Lyrics._Id[1], Md)" />
+    <hr />
+    <h4>Note:</h4>
+    <i>{{ SwitchLang('Lyrics are still in dev, so please be patient, okay?', 'Lirik masih dalam proses pengembangan, jadi sabar yaw?') }}</i>
   </div>
 </template>

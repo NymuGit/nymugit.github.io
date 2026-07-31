@@ -1,5 +1,15 @@
 [
     {
+		    "date": "Update: __1 August 2026__",
+		    "log1": "Major update to version 1.45.",
+		    "log2": "Wallpaper and blur each elements was adjusted.",
+    		"log3": "\"Fira Lutfia\" was deleted for spesific reasons, instead, \"Afiva Octavia\" and \"Lyra\" are available to fill the voids.",
+    		"log4": "- `BioCard.vue` details was changed-- _photo profile_ for example.",
+    		"log5": "- Temporary, __Any Salawat__ and __Bestday?__ development is still delayed until unspecified time.",
+    		"log12": "> Note: This update took 6 months.",
+    		"log13": "<hr />"
+    },
+    {
         "date": "Update: __26 February 2026__",
         "log1": "- Minor update to version 1.33.",
         "log2": "- Wallpapers and logos was changed.",

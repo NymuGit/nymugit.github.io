@@ -1,6 +1,6 @@
 /*
 VueNm
-v1.33
+v1.40
 NamaMu Ahmedeeya
 */
 
@@ -99,7 +99,7 @@ const Class = {
       'col-span-1 ' +
       'backdrop-blur-md bg-white/30 ' +
       'text-center font-nymu ' +
-      'hover:bg-rose-700/30 hover:scale-90 ' +
+      'hover:bg-blue-700/30 hover:scale-90 ' +
       'active:scale-100 ' +
       'transition-all ' +
       'md:rounded-xl ' +
@@ -110,7 +110,7 @@ const Class = {
       'col-span-2 ' +
       'backdrop-blur-md bg-white/30 ' +
       'text-center font-nymu ' +
-      'hover:bg-rose-700/30 hover:scale-95 ' +
+      'hover:bg-blue-700/30 hover:scale-95 ' +
       'active:scale-100 ' +
       'transition-all ' +
       'md:rounded-xl ' +
@@ -123,7 +123,7 @@ const Class = {
       'grid col-start-5 ' +
       'text-black rounded-xl ' +
       'text-center font-nymu ' +
-      'hover:bg-rose-500/30 hover:scale-95 hover:outline-2 hover:outline-rose-300 ' +
+      'hover:bg-blue-700/30 hover:scale-95 hover:outline-2 hover:outline-blue-300 ' +
       'active:scale-105 ' +
       'transition-all ' +
       'sm:col-start-7 ',
@@ -132,7 +132,7 @@ const Class = {
       'grid col-start-5 ' +
       'text-black rounded-xl ' +
       'text-center font-nymu ' +
-      'hover:bg-rose-500/30 hover:scale-95 ' +
+      'hover:bg-blue-700/30 hover:scale-95 ' +
       'active:scale-105 ' +
       'transition-all ' +
       'sm:col-start-7 ' +
@@ -156,7 +156,7 @@ const Class = {
     Button1: 'px-4 py-2 ' +
       'backdrop-blur-md bg-white/30 ' +
       'rounded-xl ' +
-      'hover:bg-rose-500/30 hover:outline-2 hover:outline-rose-300 hover:scale-95 ' +
+      'hover:bg-blue-500/30 hover:outline-2 hover:outline-blue-300 hover:scale-95 ' +
       'active:scale-105 ' +
       'transition-all ' +
       'text-black font-nymu ',
@@ -245,7 +245,7 @@ const Class = {
       'grid grid-flow-row grid-cols-12 col-span-12 ',
     H3: 'bg-transparent ',
     I: 'bg-transparent ',
-    ColSpan1: 'col-span-3 ',
+    ColSpan1: 'col-span-2 ',
     ColSpan2: 'col-span-6 ',
     ColSpan3: 'col-span-9 ',
     ColSpan4: 'col-span-12 ',

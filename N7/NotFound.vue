@@ -15,7 +15,7 @@ const Rute = useRoute()
 </script>
 
 <template>
-  <div v-if="Rute.path === '/bestday'" id="not-found">
+  <div v-if="Rute.path === '/bestday' || Rute.path === '/ultah'" id="not-found">
     <h1 :class="Cls7.NotFound.H1">{{ SwitchLang(`Looking for someone's bestday?`, `Kepo ya, siapa yang ultah?`) }}</h1>
     <p>{{ SwitchLang(`Try to select available name at these f buttons (click that one button at top-right corner to see it, if you on Android / iOS) 😴✨`, 'Coba pilih nama yang ada di tombol2 itu (atau gak klik tombol di pojok kanan atas buat liat list nama2nya) 😴✨') }}</p><br />
     <i>{{ SwitchLang(`Or ...`, `Atau ...`) }}</i><br />

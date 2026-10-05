@@ -1,1 +1,1 @@
-git add . && git commit -m "Update v1.46 (sumber kode)" && git push -u origin origin/master
+git add . && git commit -m "Update v1.46 (sumber kode)" && git push -u origin n7

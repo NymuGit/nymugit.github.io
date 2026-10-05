@@ -1,6 +1,6 @@
 <!--
 VueNm
-v1.40
+v1.46a
 NamaMu Ahmedeeya
 -->
 
@@ -54,7 +54,7 @@ onUnmounted(() => {
 
 <template>
   <section :class="Cls7.Quotes.Section1">
-    <h2 :class="Cls7.Quotes.Header2">{{ SwitchLang('Today\'s Quotes', 'Kata2 Hari ini') }}</h2>
+    <h2 :class="Cls7.Quotes.H2">{{ SwitchLang('Today\'s Quotes', 'Kata2 Hari ini') }}</h2>
     <div v-if="CurrentQuote" :class="Cls7.Quotes.Div1">
       <div v-html="RenderMd(CurrentQuote.text, Md)" :class="Cls7.Quotes.Div2"></div>
       <div :class="Cls7.Quotes.Div3">- {{ CurrentQuote.author }}</div>

@@ -1,7 +1,7 @@
 /*
 VueNm
-v1.40
-NamaMu Ahmedeeya
+v1.46
+NamaMu Dania
 */
 
 // Impor sumber dulu
@@ -62,13 +62,14 @@ const Class = {
       'grid-flow-row-dense grid-cols-1 content-end  ' +
       'rounded-xl ' +
       'overflow-y-hidden ' +
+      'align-bottom ' +
       'sm:gap-0 ' +
       'md:w-auto md:grid md:grid-cols-3 md:col-span-4 md:gap-3 ' +
       'lg:w-auto lg:grid-cols-5 lg:col-span-6 lg:gap-5 ' +
       'xl:w-auto xl:grid-cols-7 xl:col-span-8 xl:gap-7 ' +
       '2xl:w-auto 2xl:grid-cols-9 2xl:col-span-10 2xl:gap-9 ' +
       `${FontAIO}`,
-    Article: 'w-full max-h-[67vh] p-3 ' +
+    Article: 'w-full max-h-[63vh] p-3 ' +
       'grid col-span-5 gap-3 content-start ' + 
       'backdrop-blur-none bg-white/30 border-2 border-white ' +
       'overflow-scroll rounded-xl scrollbar-hide ' +
@@ -98,7 +99,7 @@ const Class = {
     Button1: 'w-full h-full scale-100 px-4 py-2 ' +
       'col-span-1 ' +
       'backdrop-blur-md bg-white/30 ' +
-      'text-center font-nymu ' +
+      'text-center align-middle font-nymu ' +
       'hover:bg-blue-700/30 hover:scale-90 ' +
       'active:scale-100 ' +
       'transition-all ' +
@@ -109,7 +110,7 @@ const Class = {
     Button2: 'w-full h-full scale-100 px-4 py-2 ' +
       'col-span-2 ' +
       'backdrop-blur-md bg-white/30 ' +
-      'text-center font-nymu ' +
+      'text-center align-middle font-nymu ' +
       'hover:bg-blue-700/30 hover:scale-95 ' +
       'active:scale-100 ' +
       'transition-all ' +
@@ -139,10 +140,21 @@ const Class = {
       'md:hidden ',
     Dark_Button2: 'dark:text-white ',
   },
-  About: 'grid gap-3 ' +
+  About: {
+    Div1: 'grid gap-3 ' +
     'lg:gap-5 ' +
     'xl:grid-flow-col xl:gap-7 ' +
     '2xl:gap-9 ',
+    Button1: 'px-4 py-2 ' +
+      'backdrop-blur-md bg-white/30 ' +
+      'rounded-xl ' +
+      'hover:bg-blue-500/30 hover:outline-2 hover:outline-blue-300 hover:scale-95 ' +
+      'active:scale-105 ' +
+      'transition-all ' +
+      'text-black font-nymu ',
+    Dark_Button1: 'dark:bg-black/30 ' +
+      'dark:text-white ',
+  },
   Modal: {
     Div1: 'fixed h-full ' +
       'inset-0 flex items-center justify-center z-50 ' +
@@ -166,7 +178,7 @@ const Class = {
   Quotes: {
     Section1: 'max-w-3xl mx-auto p-5 ' +
       'text-center ',
-    Header2: 'mb-4 ',
+    H2: 'mb-4 ',
     Div1: 'p-5 ' +
       'bg-white/5 ' +
       'rounded-xl ' +
@@ -233,7 +245,7 @@ const Class = {
       '3xl:max-w-[1/3] ' +
       `${FontAIO}`,
     Img: 'w-full h-86 ' +
-      'object-cover object-top ' +
+      'object-cover object-center ' +
       'col-span-12 row-span-1 ' +
       'bg-white ' +
       'rounded-2xl ' +
@@ -245,10 +257,7 @@ const Class = {
       'grid grid-flow-row grid-cols-12 col-span-12 ',
     H3: 'bg-transparent ',
     I: 'bg-transparent ',
-    ColSpan1: 'col-span-2 ',
-    ColSpan2: 'col-span-6 ',
-    ColSpan3: 'col-span-9 ',
-    ColSpan4: 'col-span-12 ',
+    ColSpan1: 'col-span-12 ',
   },
   Salawat_Lyrics: {
     Div1: 'w-full mx-0 ' +
@@ -261,5 +270,44 @@ const Class = {
     P2: 'font-nymu text-2xl text-center ',
     P3: 'font-nymu-2 text-md text-left ',
   },
+  BestDay: {
+    Div1: 'w-full grid relative justify-center item-center ',
+    Div2: 'grid-cols-1 gap-0 ' +
+    'bg-transparent pt-3 ' +
+      'rounded-lg ' +
+      'text-center leading-relaxed ',
+    Div3: 'grid grid-flow-row grid-cols-2 place-content-center gap-3 mt-3 ' +
+      'md:grid-cols-3 ' +
+      'lg:grid-cols-4 ' +
+      '2xl:grid-cols-6 ',
+    Input1: 'w-full h-auto mx-0 my-3 px-0 py-2 ' +
+      'backdrop-blur-md bg-white/30 ' +
+      'border-0 outline-0 rounded-xl ' +
+      'hover:border-0 hover:outline-0 ' +
+      'active:border-0 active:outline-0 ' +
+      'text-black text-center ',
+    Dark_Input1: 'dark:bg-black/30 ' +
+      'dark:text-white',
+    Button1: 'px-4 py-2 ' +
+      'backdrop-blur-md bg-white/30 ' +
+      'rounded-xl ' +
+      'hover:bg-blue-500/30 hover:outline-2 hover:outline-blue-300 hover:scale-95 ' +
+      'active:scale-105 ' +
+      'transition-all ' +
+      'text-black font-nymu ',
+    Dark_Button1: 'dark:bg-black/30 ' +
+      'dark:text-white ',
+    H1: 'leading-snug ',
+    H3: 'break-all ',
+    P1: 'mt-2 ' +
+      'text-red-500 ',
+    Dark_P1: 'dark:bg-black/30 ' +
+      'rounded-xl ',
+    P2: 'text-justify font-namamu-4 ',
+    Img1: 'w-full h-full ' +
+      'border-4 rounded-xl ' +
+      'bg-cover bg-center object-cover object-center ',
+    
+  }
 }
 export default Class

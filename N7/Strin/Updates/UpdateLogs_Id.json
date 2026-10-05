@@ -1,9 +1,19 @@
 [
 	{
+		"date": "Update: __5 Oktober 2026__",
+		"log1": "- Perubahan kecil ke versi 1.46.",
+		"log2": "- Fitur `Ultah?` dirilis bersamaan dengan update channel WA (tautan ada di halaman __Tentang Kami__).",
+		"log3": "- Penyesuaian pada fitur pergantian wallpaper berdasarkan bulan ultah di dalam `Function.ts`.",
+		"log4": "- \"Fira Lutfia\" kembali ditambahkan. Kali ini, tautan akun diperbarui.",
+		"log5": "- Untuk sementara, halaman __Serba Sholawat__ masih ditunda pengembangannya sampai waktu yang tidak ditentukan.",
+		"log12": "> Note: Update ini butuh waktu setidaknya 2 bulan.",
+		"log13": "<hr />"
+	},
+	{
 		"date": "Update: __1 Agustus 2026__",
-		"log1": "Perubahan besar2an ke versi 1.45.",
-		"log2": "Pergantian wallpaper dan juga penyesuaian blur tiap elemen.",
-		"log3": "\"Fira Lutfia\" telah dihapus karna alasan spesifik, dan sebagai gantinya, \"Afiva Octavia\" dan \"Lyra\" hadir untuk mengisi kekosongan.",
+		"log1": "- Perubahan besar2an ke versi 1.45.",
+		"log2": "- Pergantian wallpaper dan juga penyesuaian blur tiap elemen.",
+		"log3": "- \"Fira Lutfia\" telah dihapus karna alasan spesifik, dan sebagai gantinya, \"Afiva Octavia\" dan \"Lyra\" hadir untuk mengisi kekosongan.",
 		"log4": "- `BioCard.vue` telah dirubah beberapa detail-- seperti _foto profil_.",
 		"log5": "- Untuk sementara, halaman __Serba Sholawat__ dan __Ultah?__ masih ditunda pengembangannya sampai waktu yang tidak ditentukan.",
 		"log12": "> Note: Update ini butuh waktu setidaknya 6 bulan.",

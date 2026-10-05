@@ -1,7 +1,7 @@
 /*
 VueNm
-v1.40
-NamaMu Ahmedeeya
+v1.46
+NamaMu Dania
 */
 
 /* Atur referensi */
@@ -16,9 +16,10 @@ NamaMu Ahmedeeya
 body {
   @apply bg-white dark:bg-black
 }
+
 #n7 {
-  @apply relative w-screen h-screen bg-transparent overflow-hidden;
-  font-family: "Arslan Wessam A";
+  @apply relative w-screen h-screen bg-transparent overflow-hidden tracking-wider;
+  font-family: ReemKufi;
 }
 
 /* Setel Font dulu :) */
@@ -26,30 +27,83 @@ body {
   font-family: Norwester;
   src: url('/Fonts/NorwesterRegular-j5r9.ttf');
 }
+
 @font-face {
   font-family: "Arslan Wessam A";
   src: url('/Fonts/Arslan_Wessam_A.ttf');
 }
+
 @font-face {
   font-family: Mada;
   src: url('/Fonts/Mada-VariableFont_wght.ttf')
 }
+
 @font-face {
   font-family: DanielBold;
   src: url('/Fonts/DanielBold.ttf');
 }
 
-/* Saatnya apply ke kelas */
-.font-nymu {font-family: Norwester;}
-.font-arab {font-family: Mada;}
-.font-nymu-2 {font-family: DanielBold;}
+/* Baru! Font NamaMu */
+@font-face {
+  font-family: ReemKufi;
+  src: url('/Fonts/ReemKufi-Regular.ttf')
+}
 
-h1 {font-family: Norwester; @apply text-7xl}
-h2 {font-family: Norwester; @apply text-6xl}
-h3 {font-family: Norwester; @apply text-5xl}
-h4 {font-family: Norwester; @apply text-4xl}
-h5 {font-family: Norwester; @apply text-3xl}
-h6 {font-family: Norwester; @apply text-2xl}
+@font-face {
+  font-family: Lateef;
+  src: url('/Fonts/Lateef-Regular.ttf')
+}
+
+/* Saatnya apply ke kelas */
+.font-nymu {
+  font-family: Norwester;
+}
+
+.font-arab {
+  font-family: Mada;
+}
+
+.font-nymu-2 {
+  font-family: DanielBold;
+}
+
+.font-namamu-3 {
+  font-family: ReemKufi;
+}
+
+.font-namamu-4 {
+  font-family: Lateef;
+}
+
+h1 {
+  font-family: Norwester;
+  @apply text-7xl
+}
+
+h2 {
+  font-family: Norwester;
+  @apply text-6xl
+}
+
+h3 {
+  font-family: Norwester;
+  @apply text-5xl
+}
+
+h4 {
+  font-family: Norwester;
+  @apply text-4xl
+}
+
+h5 {
+  font-family: Norwester;
+  @apply text-3xl
+}
+
+h6 {
+  font-family: Norwester;
+  @apply text-2xl
+}
 
 /* Atur garis horizontal, biar keren dikit :D */
 hr {

@@ -1,7 +1,7 @@
 /*
 VueNm
-v1.40
-NamaMu Ahmedeeya
+v1.46
+NamaMu Dania
 */
 
 import {createApp} from 'vue'
@@ -27,13 +27,13 @@ import Khabbiri from '@/Routes/Salawat/Sekumpul/Khabbiri.vue'
 const Routes: RouteRecordRaw[] = [
   {path: '/', components: {default: Home, SideBar: Quotes}, name: 'Home'},
   {path: '/about', components: {default: About, SideBar: Quotes}, name: 'About Us'},
-  {path: '/bestday', components: {default: BestDay, SideBar: Quotes}, name: 'Is this Your Day anyway?'},
+  {path: '/bestday/:kode', components: {default: BestDay, SideBar: Quotes}, name: 'Is this Your Day anyway?'},
   {path: '/salawat', components: {default: Salawat, SideBar: Quotes}, name: 'Any Salawat'},
   {path: '/sekumpul', components: {default: Slwt, SideBar: Quotes}, children: [{path: 'khabbiri', component: Khabbiri}], name: 'Sekumpul: Khabbiri'},
   // Di bawah ini khusus redirect halaman bahasa Indo
   {path: '/', components: {default: Home, SideBar: Quotes}, name: 'Beranda'},
   {path: '/bersama', components: {default: About, SideBar: Quotes}, name: 'Tentang Kami'},
-  {path: '/ultah', components: {default: BestDay, SideBar: Quotes}, name: 'Hari ini Ultahmu, ya gak sih?'},
+  {path: '/ultah/:kode', components: {default: BestDay, SideBar: Quotes}, name: 'Hari ini Ultahmu, ya gak sih?'},
   {path: '/sholawat', components: {default: Salawat, SideBar: Quotes}, name: 'Serba Sholawat'},
   {path: '/sekumpul', components: {default: Slwt, SideBar: Quotes}, children: [{path: 'khobbiri', component: Khabbiri}], name: 'Sekumpul: Khobbiri'},
   // Khusus 404
@@ -44,10 +44,10 @@ const Router = createRouter({
   routes: Routes,
 })
 
-const NymuApp = createApp(App)
-NymuApp.use(createPinia())
-NymuApp.use(Router)
-NymuApp.mount('#n7')
+const NamaMu_App = createApp(App)
+NamaMu_App.use(createPinia())
+NamaMu_App.use(Router)
+NamaMu_App.mount('#n7')
 
 // Langkah tambahan (ya kalo bisa)
 export {Routes}

@@ -39,19 +39,19 @@ defineProps<{
     </div>
     <img :src="Image" :class="Cls7.BioCard.Img" />
     <div :class="Cls7.BioCard.Div3" >
-      <br :class="Cls7.BioCard.ColSpan4" /><hr :class="Cls7.BioCard.ColSpan4" />
-      <span v-if="Link_Facebook" :class="Cls7.BioCard.ColSpan1">Facebook </span><h6 v-if="Link_Facebook" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Facebook">{{ Link_Facebook ? (': ' + Link_Facebook) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Facebook_2nd" :class="Cls7.BioCard.ColSpan1">Facebook </span><h6 v-if="Link_Facebook_2nd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Facebook_2nd">{{ Link_Facebook_2nd ? (': ' + Link_Facebook_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Facebook_3rd" :class="Cls7.BioCard.ColSpan1">Facebook </span><h6 v-if="Link_Facebook_3rd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Facebook_3rd">{{ Link_Facebook_3rd ? (': ' + Link_Facebook_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Instagram" :class="Cls7.BioCard.ColSpan1">Instagram </span><h6 v-if="Link_Instagram" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Instagram">{{ Link_Instagram ? (': ' + Link_Instagram) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Instagram_2nd" :class="Cls7.BioCard.ColSpan1">Instagram </span><h6 v-if="Link_Instagram_2nd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Instagram_2nd">{{ Link_Instagram_2nd ? (': ' + Link_Instagram_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Instagram_3rd" :class="Cls7.BioCard.ColSpan1">Instagram </span><h6 v-if="Link_Instagram_3rd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Instagram_3rd">{{ Link_Instagram_3rd ? (': ' + Link_Instagram_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Youtube" :class="Cls7.BioCard.ColSpan1">Youtube </span><h6 v-if="Link_Youtube" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Youtube">{{ Link_Youtube ? (': ' + Link_Youtube) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
-      <span v-if="Link_Youtube_2nd" :class="Cls7.BioCard.ColSpan1">Youtube </span><h6 v-if="Link_Youtube_2nd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Youtube_2nd">{{ Link_Youtube_2nd ? (': ' + Link_Youtube_2nd) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
-      <span v-if="Link_Youtube_3rd" :class="Cls7.BioCard.ColSpan1">Youtube </span><h6 v-if="Link_Youtube_3rd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Youtube_3rd">{{ Link_Youtube_3rd ? (': ' + Link_Youtube_3rd) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
-      <span v-if="Link_Tiktok" :class="Cls7.BioCard.ColSpan1">Tiktok </span><h6 v-if="Link_Tiktok" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Tiktok">{{ Link_Tiktok ? (': ' + Link_Tiktok) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Tiktok_2nd" :class="Cls7.BioCard.ColSpan1">Tiktok </span><h6 v-if="Link_Tiktok_2nd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Tiktok_2nd">{{ Link_Tiktok_2nd ? (': ' + Link_Tiktok_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
-      <span v-if="Link_Tiktok_3rd" :class="Cls7.BioCard.ColSpan1">Tiktok </span><h6 v-if="Link_Tiktok_3rd" :class="Cls7.BioCard.ColSpan3"><a target="_blank" :href="`https://` + Link_Tiktok_3rd">{{ Link_Tiktok_3rd ? (': ' + Link_Tiktok_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <br :class="Cls7.BioCard.ColSpan1" /><hr :class="Cls7.BioCard.ColSpan1" />
+      <h6 v-if="Link_Facebook" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Facebook">{{ Link_Facebook ? (Link_Facebook) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Facebook_2nd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Facebook_2nd">{{ Link_Facebook_2nd ? (Link_Facebook_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Facebook_3rd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Facebook_3rd">{{ Link_Facebook_3rd ? (Link_Facebook_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Instagram" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Instagram">{{ Link_Instagram ? (Link_Instagram) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Instagram_2nd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Instagram_2nd">{{ Link_Instagram_2nd ? (Link_Instagram_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Instagram_3rd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Instagram_3rd">{{ Link_Instagram_3rd ? (Link_Instagram_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Youtube" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Youtube">{{ Link_Youtube ? (Link_Youtube) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
+      <h6 v-if="Link_Youtube_2nd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Youtube_2nd">{{ Link_Youtube_2nd ? (Link_Youtube_2nd) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
+      <h6 v-if="Link_Youtube_3rd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Youtube_3rd">{{ Link_Youtube_3rd ? (Link_Youtube_3rd) : SwitchLang(': (None)', ': (Gak punya)' ) }}</a></h6>
+      <h6 v-if="Link_Tiktok" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Tiktok">{{ Link_Tiktok ? (Link_Tiktok) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Tiktok_2nd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Tiktok_2nd">{{ Link_Tiktok_2nd ? (Link_Tiktok_2nd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
+      <h6 v-if="Link_Tiktok_3rd" :class="Cls7.BioCard.ColSpan1"><a target="_blank" :href="`https://` + Link_Tiktok_3rd">{{ Link_Tiktok_3rd ? (Link_Tiktok_3rd) : SwitchLang(': (None)', ': (Gak punya)') }}</a></h6>
     </div>
   </div>
 </template>

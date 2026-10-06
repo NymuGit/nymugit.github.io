@@ -10,7 +10,7 @@
     "pre": "vite preview",
     "buat-aja": "vite build",
     "cek-tipe": "vue-tsc --build",
-    "up-17": "gh-pages -d dist -m 'Update v1.46 (perombakan besar, cek log update di websitenya)'",
+    "up-17": "gh-pages -d dist -m 'Update v1.46a (cek log update di websitenya)'",
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*"

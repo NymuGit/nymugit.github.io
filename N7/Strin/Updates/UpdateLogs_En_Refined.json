@@ -1,5 +1,13 @@
 [
   {
+    "date": "Update: __6 October 2026__",
+    "log1": "- Minor update to version 1.46a.",
+    "log2": "- Fixation & code optimization in `Function.ts`, because small bugs appeared on language switching.",
+    "log3": "- Small fix in `index.html`, are to change the title & favicon.",
+    "log12": "> Note: This update took a day only— because atmin is well-optimized.",
+    "log13": "<hr />"
+  },
+  {
     "date": "Update: __5 October 2026__",
     "log1": "- Minor update to version 1.46.",
     "log2": "- `Bestday?` feature has released together with WA channel's update (link are available on __About Us__ page).",

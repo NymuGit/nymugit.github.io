@@ -1,6 +1,6 @@
 /*
 VueNm
-v1.46
+v1.46a
 NamaMu Dania
 */
 
@@ -115,11 +115,41 @@ export const RandomPick_Quote = (qts: object[], curqt: Ref<object | null>) => {
 // Fungsi alih dua bahasa lho ya >_<
 export const SwitchLang = (Text1: undefined | object[] | string, Text2: undefined | object[] | string) => {
   let Language = ref(navigator.language)
-  return (Language.value === 'id') ? Text2 : Text1
+  switch(Language.value) {
+    // Bahasa Indo
+    case ('id-ID'):
+      return Text2
+    break
+    // English language
+    case ('en-US'):
+      return Text1
+    break
+    case ('en-ID'):
+      return Text1
+    break
+    // Default
+    default:
+      return Text1
+  }
 }
 export const SwitchRoute = (Route1: RouteLocationAsPathGeneric | RouteLocationAsRelativeGeneric | string, Route2: RouteLocationAsPathGeneric | RouteLocationAsRelativeGeneric | string) => {
   let Language = ref(navigator.language)
-  return (Language.value === 'id') ? Route2 : Route1
+  switch(Language.value) {
+    // Bahasa Indo
+    case ('id-ID'):
+      return Route2
+    break
+    // English language
+    case ('en-US'):
+      return Route1
+    break
+    case ('en-ID'):
+      return Route1
+    break
+    // Default
+    default:
+      return Route1
+  }
 }
 
 // Setup kecil buat data ultah :)

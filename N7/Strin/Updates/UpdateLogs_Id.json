@@ -1,5 +1,13 @@
 [
 	{
+		"date": "Update: __6 Oktober 2026__",
+		"log1": "- Perubahan kecil ke versi 1.46a.",
+		"log2": "- Perbaikan dan optimisasi kode pada `Funtions.ts`, karna terjadi bug kecil pada pergantian bahasa.",
+		"log3": "- Perbaikan kecil pada `index.html`, yakni merubah judul dan favicon.",
+		"log12": "> Note: Update ini hanya butuh waktu seharian— karna atminnya lagi rajin.",
+		"log13": "<hr />"
+	},
+	{
 		"date": "Update: __5 Oktober 2026__",
 		"log1": "- Perubahan kecil ke versi 1.46.",
 		"log2": "- Fitur `Ultah?` dirilis bersamaan dengan update channel WA (tautan ada di halaman __Tentang Kami__).",
@@ -50,7 +58,7 @@
 	{
 		"date": "Update: __31 Oktober 2024__",
 		"log1": "- Perombakan besar2an tema _Terang_ dan _Gelap_.",
-		"log2": "- Perbaikan dan optimalisasi kode pada `Fungsi.vue` dengan menggabungkan kode dari `JamDigital_CaraBaru.vue` dan memisahkan setiap variabel ke dalam tiap-tiap fungsi terpisah.",
+		"log2": "- Perbaikan dan optimisasi kode pada `Fungsi.vue` dengan menggabungkan kode dari `JamDigital_CaraBaru.vue` dan memisahkan setiap variabel ke dalam tiap-tiap fungsi terpisah.",
 		"log3": "> Note: Update ini butuh waktu setidaknya 1 bulan lamanya.",
 		"log4": "<hr />"
 	},
